@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../../images/Praia-da-Ferradura-Buzios-Rio-de-Janeiro.jpg");
+    background-size: 1920px 1080px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(64, 224, 208, 0.185);
+    border: 2px solid rgba(1, 177, 159, 0.164);
+    border-radius: 10px;
+}
+
+header h1{
+    font-family: 'Glory', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+header h3{
+    font-family: 'Glory', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.sobre{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: flex-start;
+    margin-top: 200px;
+    background-color: rgba(254, 255, 255, 0.082);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    width: 900px;
+}
