@@ -8,20 +8,26 @@
 }
 
 body{
-    background-image: url("../../images/Praia-da-Ferradura-Buzios-Rio-de-Janeiro.jpg");
-    background-size: 1920px 1080px;
+    background-image: url("./images/Praia-da-Ferradura-Buzios-Rio-de-Janeiro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
+    position: sticky;
+    width: 100vw;
+}
+
+header .header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgba(64, 224, 208, 0.185);
-    border: 2px solid rgba(1, 177, 159, 0.164);
-    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(64, 224, 208, 0.342);
+    border: 5px solid rgba(2, 112, 101, 0.294);
+    
 }
 
 header h1{
@@ -38,19 +44,45 @@ header h3{
     color: rgb(255, 255, 255);
 }
 
-.sobre{
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15rem;
+}
+
+section{
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
+    text-align: justify;
     color: rgb(0, 0, 0);
+    background-color: rgba(254, 255, 255, 0.157);
+    border-radius: 10px;
+}
+
+
+.sobre{
+    margin-top: 5rem;
+    align-items: flex-start;
+    padding: 20px 20px 20px 20px;
+    width: 500px;
+    height: 100%;
+}
+
+.video{
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
     justify-content: center;
-    text-align: justify;
-    align-items: flex-start;
-    margin-top: 200px;
-    background-color: rgba(254, 255, 255, 0.082);
-    border-radius: 10px;
-    padding: 20px 20px 20px 20px;
-    width: 900px;
+    height: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(70, 70, 70, 0.342);
 }
