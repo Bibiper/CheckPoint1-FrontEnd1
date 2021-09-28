@@ -63,7 +63,7 @@ section{
 
 
 .sobre{
-    margin-top: 5rem;
+    margin-top: 3rem;
     align-items: flex-start;
     padding: 20px 20px 20px 20px;
     width: 500px;
@@ -85,4 +85,11 @@ footer{
     justify-content: space-around;
     align-items: center;
     background-color:rgba(70, 70, 70, 0.342);
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Glory', sans-serif;
 }
